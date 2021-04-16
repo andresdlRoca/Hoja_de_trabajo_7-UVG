@@ -1,3 +1,5 @@
-public class Association<K,V>{
+
+public class Association{
+
 
 }
