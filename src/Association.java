@@ -24,7 +24,7 @@ public class Association{
      * @throws IOException
      */
     public Association() throws IOException {
-        BufferedReader abc = new BufferedReader(new FileReader("C:\\Users\\Andre\\OneDrive\\Universidad\\Segundo año\\Segundo año - Primer Semestre\\Algoritmos y estructuras de datos\\Hojas de trabajo\\Hoja de trabajo 7\\src\\diccionario.txt"));
+        BufferedReader abc = new BufferedReader(new FileReader("diccionario.txt"));
         List<String> lines = new ArrayList<String>();
         String line = "";
         while((line = abc.readLine()) != null) {
@@ -71,7 +71,7 @@ public class Association{
      * @throws IOException
      */
     public void traductorEspanol() throws IOException {
-        BufferedReader abc = new BufferedReader(new FileReader("C:\\Users\\Andre\\OneDrive\\Universidad\\Segundo año\\Segundo año - Primer Semestre\\Algoritmos y estructuras de datos\\Hojas de trabajo\\Hoja de trabajo 7\\src\\texto.txt"));
+        BufferedReader abc = new BufferedReader(new FileReader("texto.txt"));
         List<String> lines = new ArrayList<String>();
         String line = "";
         while((line = abc.readLine()) != null) {
@@ -104,7 +104,7 @@ public class Association{
      * @throws IOException
      */
     public void mostrarOracion() throws IOException{
-        BufferedReader abc = new BufferedReader(new FileReader("C:\\Users\\Andre\\OneDrive\\Universidad\\Segundo año\\Segundo año - Primer Semestre\\Algoritmos y estructuras de datos\\Hojas de trabajo\\Hoja de trabajo 7\\src\\texto.txt"));
+        BufferedReader abc = new BufferedReader(new FileReader("texto.txt"));
         List<String> lines = new ArrayList<String>();
         String line = "";
         while((line = abc.readLine()) != null) {
@@ -125,7 +125,7 @@ public class Association{
      * @throws IOException
      */
     public void traductorIngles() throws IOException {
-        BufferedReader abc = new BufferedReader(new FileReader("C:\\Users\\Andre\\OneDrive\\Universidad\\Segundo año\\Segundo año - Primer Semestre\\Algoritmos y estructuras de datos\\Hojas de trabajo\\Hoja de trabajo 7\\src\\texto.txt"));
+        BufferedReader abc = new BufferedReader(new FileReader("texto.txt"));
         List<String> lines = new ArrayList<String>();
         String line = "";
         while((line = abc.readLine()) != null) {
@@ -158,7 +158,7 @@ public class Association{
      * @throws IOException
      */
     public void traductorFrances() throws IOException {
-        BufferedReader abc = new BufferedReader(new FileReader("C:\\Users\\Andre\\OneDrive\\Universidad\\Segundo año\\Segundo año - Primer Semestre\\Algoritmos y estructuras de datos\\Hojas de trabajo\\Hoja de trabajo 7\\src\\texto.txt"));
+        BufferedReader abc = new BufferedReader(new FileReader("texto.txt"));
         List<String> lines = new ArrayList<String>();
         String line = "";
         while((line = abc.readLine()) != null) {
